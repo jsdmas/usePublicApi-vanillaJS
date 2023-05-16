@@ -12,18 +12,11 @@ const span4 = document.querySelector(`.description__info__data :nth-child(5)`);
 const linkBtn = document.querySelector(`#linkBtn`);
 const moreInfo = document.querySelector(`.description__moreinfo>p`);
 
-
 const description = document.querySelector('#description');
 
 // 초기 불러올 데이터의 양 
 let firstPage = 1;
 let endPage = 5;
-
-// dropdown에 포함할 장소 선언
-const svcstatnm = document.querySelector('#SVCSTATNM');
-const areanm = document.querySelector('#AREANM');
-// dropdown 버튼
-const btn = document.querySelector(`#submit`);
 
 function elementcreate(v) {
     // 목록 div 생성
