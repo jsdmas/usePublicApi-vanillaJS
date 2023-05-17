@@ -15,11 +15,11 @@ module.exports = {
             directory: path.join(__dirname, 'src'),
         },
         open: true,
-        port: 'auto'
+        port: 8000
     },
     plugins: [
         new MiniCssExtractPlugin({ filename: "css/style.css" }),
-        new HtmlWebpackPlugin({ template: "./src/index.html", }),
+        new HtmlWebpackPlugin({ template: "./src/index.html" }),
         new Dotenv()
     ],
     module: {

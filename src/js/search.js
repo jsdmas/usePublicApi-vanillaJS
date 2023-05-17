@@ -1,8 +1,5 @@
 import elementcreate from "./elementCreate";
 
-
-
-
 let firstPage = 1;
 let endPage = 5;
 let data = null;
