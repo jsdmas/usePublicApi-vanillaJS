@@ -4,18 +4,26 @@
   "description": "공공 데이터 포탈의 API, kakao map API 외부 API를 활용해 웹 페이지를 구현한 프로젝트입니다.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack serve",
+    "start": "webpack"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
   "devDependencies": {
-    "dotenv": "^16.0.3",
-    "webpack": "^5.82.1",
-    "webpack-cli": "^5.1.1",
     "@babel/core": "^7.21.8",
     "@babel/preset-env": "^7.21.5",
-    "babel-loader": "^9.1.2"
-  },
-  "dependencies": {}
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
+    "dotenv": "^16.0.3",
+    "dotenv-webpack": "^8.0.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.1",
+    "mini-css-extract-plugin": "^2.7.5",
+    "node-sass": "^8.0.0",
+    "sass": "^1.62.1",
+    "sass-loader": "^13.2.2",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.82.1",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0"
+  }
 }

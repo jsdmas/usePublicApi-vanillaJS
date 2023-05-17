@@ -1,5 +1,8 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Gowun+Batang:wght@400;700&family=Gowun+Dodum&display=swap');
 @import "./commons.scss";
+@import "./reset.scss";
+
 @font-face {
     font-family: 'MonoplexKR-Regular';
     font-family: '양진체';
@@ -8,8 +11,70 @@
     font-style: normal;
 }
 
-body {font-family: 'Gowun Dodum', sans-serif;}
-a {text-decoration: none; color: #000;}
+#container{
+    height: 100%;
+    margin: 0 auto;
+    width: 80%;
+    background-color: antiquewhite;
+}
+
+.box{
+    display: flex;
+    width: 100%;
+    height: 15%;
+    align-items: center;
+    background-color: burlywood;
+    &:hover{
+        background-color: brown;
+        cursor: pointer;
+    }
+}
+
+.box__img{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+
+#description{
+    position: fixed;
+    z-index: 99;
+    width: 70%;
+    height: 80%;
+    background-color: white;
+}
+
+.hidden{
+    display: none;
+}
+.description__wrap{
+    display: flex;
+
+}
+.description__poster{
+    background-color: orange;
+    background: no-repeat center/cover;
+    width: 100px;
+    height: 100px;
+}
+.description__info>h3{
+    background-color: bisque;
+    width: 200px;
+    height: 50px;
+}
+.description__info__data{
+    display: flex;
+    flex-direction: column;
+}
+
+.description__info__data span{
+    background-color: skyblue;
+    margin-top: 5px;
+    width: 200px;
+    height: 50px;
+}
 
 .header {
     width: 100%;

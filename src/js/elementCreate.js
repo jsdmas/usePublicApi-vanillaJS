@@ -1,6 +1,5 @@
 // index의 container div
 const container = document.querySelector(`#container`);
-
 // description 안의 내용담을 것들
 const poster = document.querySelector(`.description__poster`);
 const infoTitle = document.querySelector(`.description__info__data>h3`);
@@ -11,14 +10,9 @@ const span4 = document.querySelector(`.description__info__data :nth-child(5)`);
 // const span5 = document.querySelector(`.description__info__data :nth-child(5)`);
 const linkBtn = document.querySelector(`#linkBtn`);
 const moreInfo = document.querySelector(`.description__moreinfo>p`);
-
 const description = document.querySelector('#description');
 
-// 초기 불러올 데이터의 양 
-let firstPage = 1;
-let endPage = 5;
-
-function elementcreate(v) {
+export default function elementcreate(v) {
     // 목록 div 생성
     const div = document.createElement("div");
     // div에 box 클래스 추가.
@@ -107,26 +101,20 @@ function elementcreate(v) {
 
         // 지도 레이아웃 초기화
         map.relayout();
-
         // 지도 이동
         panTo(v.Y, v.X);
-
         // 마커가 표시될 위치입니다 
         var markerPosition = new kakao.maps.LatLng(v.Y, v.X);
-
         //이전 마커를 지웁니다
         markers.forEach((v, i) => {
             v.setMap(null);
         });
-
         // 마커를 생성합니다
         var marker = new kakao.maps.Marker({
             position: markerPosition
         });
-
         // 생성된 마커를 배열에 추가합니다
         markers.push(marker);
-
         // 마커가 지도 위에 표시되도록 설정합니다
         marker.setMap(map);
     });
