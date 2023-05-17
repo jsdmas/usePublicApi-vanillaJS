@@ -5,7 +5,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
     mode: "development",
-    entry: "./src/app.js",
+    entry: "./src/index.js",
     output: {
         path: path.resolve(__dirname, "./dist"),
         filename: "[name].js",
@@ -18,9 +18,9 @@ module.exports = {
         port: 8000
     },
     plugins: [
-        new MiniCssExtractPlugin({ filename: "css/style.css" }),
         new HtmlWebpackPlugin({ template: "./src/index.html" }),
-        new Dotenv()
+        new MiniCssExtractPlugin({ filename: "css/style.css" }), // css 파일 분리
+        new Dotenv() // env파일적용
     ],
     module: {
         rules: [
@@ -39,14 +39,18 @@ module.exports = {
             },
             {
                 test: /\.jpg$/,
+                type: 'asset/resource',
+                generator: {
+                    filename: 'img/[name][ext]'
+                }
+            },
+            {
+                test: /\.html$/,
                 use: [
                     {
-                        loader: "file-loader",
-                        options: {
-                            name: 'img/[name].[ext]',
-                        },
-                    },
-                ],
+                        loader: "html-loader",
+                    }
+                ]
             },
         ],
     },
