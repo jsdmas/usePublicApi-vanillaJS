@@ -9,17 +9,26 @@ const description = document.querySelector('#description');
  * @description 요소들을 생성합니다
  * @param {Object} 행사데이터
  */
-const elementcreate = (item) => {
+const elementcreate = (item, currentPage) => {
     // 목록 div 생성
     const div = document.createElement("div");
     // div에 box 클래스 추가.
     div.classList.add("box");
 
-    const img = document.createElement("img");
-    img.classList.add("box__img");
-    // 행사정보 이미지 추가
-    img.setAttribute("src", item.IMGURL);
-    div.appendChild(img);
+    if (currentPage === 1) {
+        // 맨처음 로딩되는 이미지
+        const img = document.createElement("img");
+        img.classList.add("box__img");
+        img.setAttribute("src", item.IMGURL);
+        div.appendChild(img);
+    } else {
+        const img = document.createElement("img");
+        img.classList.add("box__img");
+        img.classList.add("lazy");
+        // 행사정보 이미지 추가
+        img.setAttribute("data-src", item.IMGURL);
+        div.appendChild(img);
+    }
 
     const titleDiv = document.createElement("div");
     titleDiv.classList.add("box__title");

@@ -22,7 +22,6 @@ export const fetchData = async (currentPage = 1, lastPage = 5) => {
         console.error(error);
         return alert("데이터를 불러오지 못했습니다!");
     }
-    data.forEach(item => elementcreate(item));
+    data.forEach(item => elementcreate(item, currentPage));
     return [totalCount, currentPage, lastPage];
 };
-

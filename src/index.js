@@ -1,5 +1,6 @@
 import "./scss/style.scss";
 import "./img/seoul.jpg";
+import "./js/imgLazyLoading";
 import { fetchData } from "./js/featchData";
 import throttle from "./js/throttle";
 
