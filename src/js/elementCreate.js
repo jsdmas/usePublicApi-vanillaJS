@@ -15,20 +15,16 @@ const elementcreate = (item, currentPage) => {
     // div에 box 클래스 추가.
     div.classList.add("box");
 
+    const img = document.createElement("img");
+    img.classList.add("box__img");
     if (currentPage === 1) {
         // 맨처음 로딩되는 이미지
-        const img = document.createElement("img");
-        img.classList.add("box__img");
         img.setAttribute("src", item.IMGURL);
-        div.appendChild(img);
     } else {
-        const img = document.createElement("img");
-        img.classList.add("box__img");
         img.classList.add("lazy");
-        // 행사정보 이미지 추가
         img.setAttribute("data-src", item.IMGURL);
-        div.appendChild(img);
     }
+    div.appendChild(img);
 
     const titleDiv = document.createElement("div");
     titleDiv.classList.add("box__title");
