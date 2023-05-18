@@ -4,8 +4,9 @@ import { fetchData } from "./js/featchData";
 import throttle from "./js/throttle";
 
 (async () => {
+    const addPageNum = 5;
     let [totalCount, currentPage, lastPage] = await fetchData();
-    const fetchDataThrottled = throttle(() => fetchData(currentPage, lastPage), 300);
+    const fetchDataThrottled = throttle(() => fetchData(currentPage, lastPage), 500);
     window.addEventListener(`scroll`, () => {
 
         if (lastPage > totalCount) return;
@@ -14,8 +15,8 @@ import throttle from "./js/throttle";
         const documentHeight = document.body.scrollHeight;
 
         if (scrollTop + windowHeight >= documentHeight) {
-            currentPage = currentPage + 5;
-            lastPage = lastPage + 5;
+            currentPage = currentPage + addPageNum;
+            lastPage = lastPage + addPageNum;
             fetchDataThrottled();
         }
     });
