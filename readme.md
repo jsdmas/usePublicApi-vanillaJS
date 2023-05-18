@@ -8,5 +8,3 @@
 ## 📑 사용 API
 - [문화행사 정보](http://data.seoul.go.kr/dataList/OA-2269/S/1/datasetView.do)
 - [카카오지도](https://apis.map.kakao.com/) 
-
-
