@@ -8,6 +8,10 @@ const linkBtn = document.querySelector(`#linkBtn`);
 const moreInfo = document.querySelector(`.description__moreinfo>p`);
 const description = document.querySelector('#description');
 
+/**
+ * @description 클릭시 나오는 세부내용을 렌더링
+ * @param {Object} 행사데이터
+ */
 const paintDescription = (item) => {
     // let growless = container.classList.contains("container");
     let Existence = description.classList.contains("hidden");

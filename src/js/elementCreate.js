@@ -5,6 +5,10 @@ import paintMap from "./paintMap";
 const container = document.querySelector(`#container`);
 const description = document.querySelector('#description');
 
+/**
+ * @description 요소들을 생성합니다
+ * @param {Object} 행사데이터
+ */
 const elementcreate = (item) => {
     // 목록 div 생성
     const div = document.createElement("div");

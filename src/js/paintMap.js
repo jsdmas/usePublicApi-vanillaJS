@@ -1,3 +1,7 @@
+/**
+ * @description kakaoMap을 활용해 행사 주최하는 장소 지도를 그려줍니다.
+ * @param {Object} 행사데이터
+ */
 const paintMap = (item) => {
     var mapContainer = document.getElementById('map'); // 지도를 표시할 div 
     var mapOption = {
