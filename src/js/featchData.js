@@ -1,5 +1,11 @@
 import elementcreate from "./elementCreate";
 
+/**
+ * @description 공공데이터 포탈에서 데이터를 가져옵니다.
+ * @param {number} currentPage 
+ * @param {number} lastPage 
+ * @returns [totalCount, currentPage, lastPage]
+ */
 export const fetchData = async (currentPage = 1, lastPage = 5) => {
     let data = null;
     let totalCount = 0;
@@ -11,6 +17,7 @@ export const fetchData = async (currentPage = 1, lastPage = 5) => {
         console.error(error);
         return alert("데이터를 불러오지 못했습니다!");
     }
-    data.forEach(v => elementcreate(v));
+    data.forEach(item => elementcreate(item));
     return [totalCount, currentPage, lastPage];
 };
+
