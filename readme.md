@@ -8,13 +8,13 @@
 npm start
 ```
 
-## Front-End skiils
-- html, vanilla javaScript, scss, webpack
+# Front-End skills
+- vanilla javaScript, scss, webpack
 
-## 📑 사용 API
+### 📑 사용 API
 - [문화행사 정보](http://data.seoul.go.kr/dataList/OA-2269/S/1/datasetView.do)
 - [카카오지도](https://apis.map.kakao.com/) 
 
 
-## 개선 전
+#### 개선 전
 이전 Repository : [https://github.com/jsdmas/publicDataAPI-infiniteScroll](https://github.com/jsdmas/publicDataAPI-infiniteScroll)
