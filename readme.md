@@ -1,5 +1,7 @@
-# 📉 서울시 행사정보 조회
+# Over View
 
+javaScript를 처음 익히면서 만들어본 프로젝트입니다.  
+wepack을 사용하여 
 공공 데이터 포탈의 API, kakao map API 외부 API를 활용해 웹 페이지를 구현한 프로젝트입니다.
 
 ## 📚 실행방법
@@ -7,6 +9,10 @@
 ```
 npm start
 ```
+
+## Takeaways
+
+
 
 # Front-End skills
 - vanilla javaScript, scss, webpack
@@ -16,5 +22,4 @@ npm start
 - [카카오지도](https://apis.map.kakao.com/) 
 
 
-#### 개선 전
-이전 Repository : [https://github.com/jsdmas/publicDataAPI-infiniteScroll](https://github.com/jsdmas/publicDataAPI-infiniteScroll)
+
