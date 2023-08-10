@@ -10,10 +10,8 @@
 | 저장소 | https://github.com/jsdmas/usePublicApi-vanillaJS |
 
 
-![](https://file.notion.so/f/s/c1cbc931-b507-46e5-89b3-96cc230b35ba/Untitled.png?id=af0b2306-26eb-482a-bdcc-884709ab5e4c&table=block&spaceId=4ad879ee-8801-419a-8198-54a28ce85176&expirationTimestamp=1691546400000&signature=3aeNM8ioCtzJK3ypxxqdjKKBWd6Yf8qNwzLElITqmdo&downloadName=Untitled.png)  
-  
-![](https://file.notion.so/f/s/74ed46a8-6f44-43aa-b232-b1caafbd71ec/Untitled.png?id=a86ca360-67a0-4cb2-ba31-d0c9f1db7e25&table=block&spaceId=4ad879ee-8801-419a-8198-54a28ce85176&expirationTimestamp=1691546400000&signature=90TzC7J9YkyQQTczoSKNsZKTNBWNomZTiKIuhnd912U&downloadName=Untitled.png)
-  
+![](https://github.com/jsdmas/frontend-interview/assets/105098581/e0f10f62-c04e-49a2-b258-de9f812fe0d7)
+![Untitled (16)](https://github.com/jsdmas/frontend-interview/assets/105098581/3dd7ceb1-9635-4db2-8289-4b756772022a)
 
 ## 📚 실행방법
 
@@ -41,11 +39,11 @@ npm start
     
     **이미지 지연 로딩**
     
-    ![](https://file.notion.so/f/s/2e96ebec-19f4-4fe7-ac33-0a7ba52c31c1/Untitled.gif?id=c1874ad9-ab9e-48aa-807c-1289fff161fe&table=block&spaceId=4ad879ee-8801-419a-8198-54a28ce85176&expirationTimestamp=1691546400000&signature=FFaFOnGGnlBAbQKZLOXdowyjBjvtI1QW5NOj6Xp0E94&downloadName=Untitled.gif)
+    ![Untitled (6)](https://github.com/jsdmas/frontend-interview/assets/105098581/9faf852c-7246-401a-90bd-95bf1076d4bc)
     
     **throttle을 적용하여 빠른 스크롤링 방지**
     
-    ![](https://file.notion.so/f/s/5dd49e01-4dc1-4f7e-bd09-75237e22d58a/Untitled.gif?id=b441e7a6-b0d2-4175-8194-57675c08a085&table=block&spaceId=4ad879ee-8801-419a-8198-54a28ce85176&expirationTimestamp=1691546400000&signature=RSXJr38YkcU9td2B4u17OuwrkqrlnDUboM8XzP-JggE&downloadName=Untitled.gif)
+    ![Untitled (7)](https://github.com/jsdmas/frontend-interview/assets/105098581/58a6990d-7573-4b53-9fed-73e26bb37ca7)
     
 - Webpack으로 렌더링 최적화
     
@@ -57,29 +55,29 @@ npm start
     
     **Bundling 전**
     
-    ![](https://file.notion.so/f/s/d4124ea6-182e-4795-81f4-124e2e26b40b/Untitled.png?id=2a86ca9c-2114-45ec-897e-b9f31606ca79&table=block&spaceId=4ad879ee-8801-419a-8198-54a28ce85176&expirationTimestamp=1691546400000&signature=K9skdUI-qmdbYTGFHBfTExR9MjEGcDAmjq3S-ZDmHoQ&downloadName=Untitled.png)
+    ![](https://github.com/jsdmas/frontend-interview/assets/105098581/a6d84412-55d9-402e-a750-42f44e40e867)
     
-    ![](https://file.notion.so/f/s/b72a92c0-a977-4b89-9086-af38879f422f/Untitled.png?id=7c3d14c2-4677-4a8f-94ac-b94d3e7bc8aa&table=block&spaceId=4ad879ee-8801-419a-8198-54a28ce85176&expirationTimestamp=1691546400000&signature=dXIxLeJ87l-OLthg8bp59JmEZOA6WNAc4anQwqsynLo&downloadName=Untitled.png)
+    ![](https://github.com/jsdmas/frontend-interview/assets/105098581/53021632-36da-4682-bce5-e9934a7d1b18)
     
     **Bundling 후**
     
-    ![](https://file.notion.so/f/s/62d262b2-ceb9-4348-8f21-c68506458fb0/Untitled.png?id=d4b2a3f0-5c70-4aaa-a5f6-48d5177b1dfc&table=block&spaceId=4ad879ee-8801-419a-8198-54a28ce85176&expirationTimestamp=1691546400000&signature=0ejZqK7YDnxvRktN8Ubv5glyTBbd6-ijevtZbRkEZV0&downloadName=Untitled.png)
+    ![](https://github.com/jsdmas/frontend-interview/assets/105098581/f4541a17-229f-441c-be15-ce8318ef7ed6)
     
-    ![](https://file.notion.so/f/s/c68d3437-68c6-40a1-b933-6c3348180290/Untitled.png?id=d793b6b3-3e65-4e9c-b787-272a69f3b857&table=block&spaceId=4ad879ee-8801-419a-8198-54a28ce85176&expirationTimestamp=1691546400000&signature=viWO5CP8jPj7JontIzaiDn-9uLFlQpzZ7pdvchDQ4Ac&downloadName=Untitled.png)
+    ![](https://github.com/jsdmas/frontend-interview/assets/105098581/a2563322-c294-4eb7-a324-9d15f7b42539)
     
     또한, **Speed Index를 4.8초 LCP(Largest Contentful Paint)를 0.9초 단축하여 사용자에게 더 빠르게 화면을 보여주게 되었습니다.** 성능은 크롬 개발자도구와 **LightHouse**로 측정하였습니다.
     
     **Bundling 전 웹페이지 초기 로드**
     
-    ![](https://file.notion.so/f/s/79b51ee6-0d44-4c5e-a2bc-8eb07c952bb3/Untitled.png?id=6f16239a-252d-4606-b941-260fb97e24fe&table=block&spaceId=4ad879ee-8801-419a-8198-54a28ce85176&expirationTimestamp=1691546400000&signature=KsSyZGBIqccUhey3LT5mSXBa6PUGpEEXKfPES8di7d8&downloadName=Untitled.png)
+    ![](https://github.com/jsdmas/frontend-interview/assets/105098581/96822549-8f9e-4670-826f-4c42f2087246)
     
     **Bundling 후 웹페이지 초기 로드**
     
-    ![](https://file.notion.so/f/s/a5c63671-b240-44f9-9c0a-2573097d4f80/Untitled.png?id=35fb5c4c-fc17-409d-89e0-b8c94bbeff1a&table=block&spaceId=4ad879ee-8801-419a-8198-54a28ce85176&expirationTimestamp=1691546400000&signature=VO5CMrBOHhhh-JEwKY1kNTnqP8cigoRaEskVeSCMc4g&downloadName=Untitled.png)
+    ![](https://github.com/jsdmas/frontend-interview/assets/105098581/705e2912-4ecc-4c23-8c65-4e6af2bf9472)
     
-    ![](https://file.notion.so/f/s/50c92c78-dbf7-4cf0-8967-5f183fbd85b8/Untitled.png?id=35aadee9-cfd8-49b0-89cf-c95333a4881f&table=block&spaceId=4ad879ee-8801-419a-8198-54a28ce85176&expirationTimestamp=1691546400000&signature=B6uABWwnrCO-tTOZaUwlpHydf4U3UPlUHIfHr9Els_w&downloadName=Untitled.png)
+    ![](https://github.com/jsdmas/frontend-interview/assets/105098581/d887ef5f-4bd5-424d-93ba-d092b9468c58)
     
-    ![](https://file.notion.so/f/s/4b572aba-3328-4bd0-a5c1-4d083236eb93/Untitled.png?id=da9a7220-9202-436a-84db-b7a6c3843844&table=block&spaceId=4ad879ee-8801-419a-8198-54a28ce85176&expirationTimestamp=1691546400000&signature=ycMzEAJop-qlYKWOiHXeN9S6P71o7hPHKUHDcoiNafM&downloadName=Untitled.png)
+    ![](https://github.com/jsdmas/frontend-interview/assets/105098581/2626cb8a-6779-4053-9282-b2819060e008)
     
 
 ### ‼️ **깨달은 점**
